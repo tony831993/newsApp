@@ -29,7 +29,7 @@ export default class App extends Component {
       <>
         <Router>
           <NavBar />
-          <LoadingBar color='#f11919' progress={this.state.progress} />
+          <LoadingBar height={5} color='#f11919' progress={this.state.progress} />
           <div className='container my-3'>
             <h2 className='text-center'>NewsMonkey - Top headlines...</h2>
 
